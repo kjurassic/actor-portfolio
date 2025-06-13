@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "actor-portfolio"
-          entrypoint: "app.d.ts"
+          entrypoint: "index.ts"
           root: "build"
           
           
